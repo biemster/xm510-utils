@@ -1,5 +1,5 @@
-GCC = /home/lars/temp/xm510_toolchain/arm-unknown-linux-musleabi/bin/arm-unknown-linux-musleabi-gcc
-CFLAGS = -static -std=gnu99 -s -Os -ffunction-sections -Wl,--gc-sections
+GCC = /home/lars/temp/xm510_toolchain/arm-unknown-linux-uclibcgnueabi/bin/arm-unknown-linux-uclibcgnueabi-gcc
+CFLAGS = -std=gnu99 -s -Os -ffunction-sections -Wl,--gc-sections
 
 all: helloworld ftp
 
